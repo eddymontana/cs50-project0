@@ -1,0 +1,79 @@
+/* Styles for the navigation links */
+.nav-links {
+    text-align: right;
+    padding: 15px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Styles for the main search form */
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.search-input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-radius: 4px;
+    color: #5f6368;
+    font-size: 14px;
+    padding: 10px 16px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+
+/* Styles for the advanced search page */
+.advanced-form {
+    margin: 40px 20px;
+    max-width: 600px;
+}
+
+.advanced-form .input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.advanced-form label {
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.advanced-form input {
+    flex: 2;
+    padding: 5px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 13px;
+}
+
+.advanced-button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.advanced-button {
+    background-color: #4285f4;
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
